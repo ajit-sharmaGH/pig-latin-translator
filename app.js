@@ -10,8 +10,8 @@ function getTranslationURL(input) {
 }
 
 function errorHandler(error) {
-    console.log("error occured", error);
-    alert("somethig went wrong.. please try again.")
+    console.log("Erro Occured", error);
+    alert("Somethig Went Wrong ! Please try again.")
 }
 
 function clickHandler() {

@@ -1,37 +1,107 @@
-@import url('https://fonts.googleapis.com/css2?family=Klee+One&display=swap');
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css");
+:root {
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    --primary: #ff6600;
+    --secondary: #ff771f;
+    --tertiary: #ff8c3c;
+    --background: #ffaf7a;
+    --light-green-color: #99ff99;
+    --danger-bg-color: #ff9999;
+    --logo-color: #7f7fff;
+    --background-color: antiquewhite;
+    --dark: grey;
+    --blueviolet: blueviolet;
+    --blue: blue;
+    --primary-bg-color: #FFFFFF;
+    --secondary-bg-color: #FAFAFA;
+    --text-color: #282828;
+    --hotpink: hotpink;
+    --barcelona-dark-yellow: #E9B800;
+    --sky-blue: #BFDBFE;
+}
+
 body {
-    display: flex;
-    flex-direction: column;
-    background-color: antiquewhite;
-    font-size: larger;
-    margin: 10px;
+    width: 98%;
     text-align: center;
+    box-sizing: border-box;
+    background-color: var(--light-green-color);
 }
 
-.heading {
-    text-align: center;
-    margin: auto;
+a {
+    text-decoration: none;
 }
 
-textarea {
-    border-radius: 0.3rem;
-    padding: 50px 0px 50px 0px;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-    -webkit-border-radius: 0.3rem;
-    -moz-border-radius: 0.3rem;
-    -ms-border-radius: 0.3rem;
-    -o-border-radius: 0.3rem;
+li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
 }
 
-button {
-    margin: auto;
-    padding: 10px 50px 10px 50px;
-    background-color: yellow;
+.heading-1 {
+    color: var(--blueviolet);
+}
+
+.text-input {
+    width: 95%;
+    min-height: 10rem;
+    border-radius: 10px;
+    font-family: monospace;
+    font-size: 1.1rem;
+    padding: 5px 10px;
+    resize: none;
+    outline-color: var(--blueviolet);
+}
+
+.btn-translate {
+    font-family: monospace;
+    font-size: 1.2rem;
+    color: var(--blueviolet);
+    font-weight: 500;
     border-radius: 1rem;
-    font-size: x-large;
+    padding: 10px 10px;
+    border: 1px solid var(--blueviolet);
+    margin: 1rem 0 0.7rem 1rem;
+    cursor: pointer;
 }
 
-.op {
-    margin: auto;
+.btn-translate:hover {
+    background-color: var(--logo-color);
+    color: var(--primary-bg-color);
+}
+
+.output-description {
+    font-size: 1.2rem;
+    color: var(--blueviolet);
+    margin-bottom: 1rem;
+}
+
+.heading-3 {
+    text-align: justify;
+    text-align: center;
+}
+
+.footer>p {
+    font-weight: 400;
+    font-size: 1.4rem;
+    color: var(--blueviolet);
+}
+
+.footer-links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-links>li {
+    margin: 0.5rem 1.5rem;
+    font-size: 1.8rem;
+}
+
+.footer-links>li>a {
+    color: var(--blueviolet);
+}
+
+.footer-links>li>a:hover {
+    color: var(--logo-color);
 }
